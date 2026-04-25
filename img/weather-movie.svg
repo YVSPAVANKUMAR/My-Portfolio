@@ -1,0 +1,48 @@
+<svg width="320" height="200" viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f766e"></stop>
+      <stop offset="100%" stop-color="#06b6d4"></stop>
+    </linearGradient>
+
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="10"></feGaussianBlur>
+    </filter>
+  </defs>
+
+  <!-- Main Card -->
+  <rect x="0" y="0" width="320" height="200" rx="20" fill="url(#bg)"></rect>
+
+  <!-- Top Bars -->
+  <rect x="20" y="20" width="80" height="6" rx="3" fill="white" opacity="0.6"></rect>
+  <rect x="240" y="20" width="50" height="6" rx="3" fill="white" opacity="0.4"></rect>
+
+  <!-- Inner Glass Card -->
+  <rect x="20" y="50" width="280" height="90" rx="12" fill="white" opacity="0.1"></rect>
+
+  <!-- Graph Line -->
+  <polyline points="30,110 50,110 70,80 90,120 110,90 130,110 150,100 170,80 190,120 210,95 230,90" fill="none" stroke="white" stroke-width="2"></polyline>
+
+  <!-- Side Blocks -->
+  <rect x="30" y="130" width="60" height="6" rx="3" fill="white" opacity="0.5"></rect>
+  <rect x="30" y="140" width="40" height="6" rx="3" fill="white" opacity="0.3"></rect>
+
+  <rect x="230" y="130" width="40" height="6" rx="3" fill="white" opacity="0.5"></rect>
+  <rect x="230" y="140" width="25" height="6" rx="3" fill="white" opacity="0.3"></rect>
+
+  <!-- Title -->
+  <text x="20" y="170" fill="white" font-size="16" font-family="Arial" font-weight="bold">
+    Weather &amp; Movie Hub
+  </text>
+
+  <!-- Subtitle -->
+  <text x="20" y="185" fill="white" font-size="11" opacity="0.7" font-family="Arial">
+    Real-time weather | Movie search | API-based app
+  </text>
+
+  <!-- Glow Circle -->
+  <circle cx="280" cy="170" r="40" fill="#22d3ee" opacity="0.3" filter="url(#blur)"></circle>
+
+</svg>

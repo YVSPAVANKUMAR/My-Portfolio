@@ -1,0 +1,37 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">To Do List App project cover</title>
+  <desc id="desc">Checklist style interface with task cards and completion states.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="55%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#60a5fa"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="44" fill="url(#bg)"/>
+  <rect x="120" y="92" width="960" height="616" rx="40" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <rect x="164" y="136" width="872" height="64" rx="24" fill="rgba(255,255,255,0.1)"/>
+  <rect x="200" y="157" width="210" height="22" rx="11" fill="rgba(255,255,255,0.9)"/>
+  <g fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.18)">
+    <rect x="164" y="246" width="872" height="84" rx="24"/>
+    <rect x="164" y="356" width="872" height="84" rx="24"/>
+    <rect x="164" y="466" width="872" height="84" rx="24"/>
+    <rect x="164" y="576" width="872" height="84" rx="24"/>
+  </g>
+  <g>
+    <circle cx="226" cy="288" r="24" fill="rgba(191,219,254,0.85)"/>
+    <path d="M216 288L223 295L237 280" fill="none" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="226" cy="398" r="24" fill="rgba(191,219,254,0.35)"/>
+    <circle cx="226" cy="508" r="24" fill="rgba(191,219,254,0.85)"/>
+    <path d="M216 508L223 515L237 500" fill="none" stroke="#1d4ed8" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="226" cy="618" r="24" fill="rgba(191,219,254,0.35)"/>
+  </g>
+  <g fill="rgba(239,246,255,0.88)">
+    <rect x="280" y="276" width="400" height="22" rx="11"/>
+    <rect x="280" y="386" width="350" height="22" rx="11"/>
+    <rect x="280" y="496" width="420" height="22" rx="11"/>
+    <rect x="280" y="606" width="320" height="22" rx="11"/>
+  </g>
+  <text x="164" y="708" fill="#eff6ff" font-family="Poppins, Arial, sans-serif" font-size="68" font-weight="700">To-Do List App</text>
+  <text x="164" y="756" fill="#dbeafe" font-family="Poppins, Arial, sans-serif" font-size="28">Productivity tool  |  Task flows • DOM updates • Clean UX</text>
+</svg>

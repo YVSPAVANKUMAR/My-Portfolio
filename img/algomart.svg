@@ -1,0 +1,38 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Algomart project cover</title>
+  <desc id="desc">Stylized commerce dashboard with product cards and shopping interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="45%" stop-color="#1d4ed8"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="44" fill="url(#bg)"/>
+  <circle cx="1020" cy="130" r="140" fill="rgba(125,211,252,0.16)"/>
+  <circle cx="180" cy="660" r="180" fill="rgba(79,70,229,0.22)"/>
+  <rect x="82" y="90" width="1036" height="620" rx="38" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.18)"/>
+  <rect x="125" y="138" width="950" height="62" rx="24" fill="rgba(255,255,255,0.14)"/>
+  <rect x="162" y="156" width="190" height="24" rx="12" fill="rgba(255,255,255,0.88)"/>
+  <rect x="860" y="150" width="170" height="34" rx="17" fill="rgba(191,219,254,0.54)"/>
+  <g fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.18)">
+    <rect x="126" y="245" width="220" height="240" rx="26"/>
+    <rect x="380" y="245" width="220" height="240" rx="26"/>
+    <rect x="634" y="245" width="220" height="240" rx="26"/>
+    <rect x="888" y="245" width="186" height="380" rx="26"/>
+  </g>
+  <g fill="rgba(255,255,255,0.22)">
+    <rect x="158" y="280" width="155" height="110" rx="22"/>
+    <rect x="412" y="280" width="155" height="110" rx="22"/>
+    <rect x="666" y="280" width="155" height="110" rx="22"/>
+  </g>
+  <g fill="rgba(219,234,254,0.75)">
+    <rect x="158" y="415" width="125" height="18" rx="9"/>
+    <rect x="412" y="415" width="125" height="18" rx="9"/>
+    <rect x="666" y="415" width="125" height="18" rx="9"/>
+  </g>
+  <rect x="925" y="285" width="110" height="110" rx="22" fill="rgba(255,255,255,0.18)"/>
+  <rect x="925" y="425" width="110" height="18" rx="9" fill="rgba(219,234,254,0.75)"/>
+  <text x="125" y="676" fill="#f8fbff" font-family="Poppins, Arial, sans-serif" font-size="68" font-weight="700">Algomart</text>
+  <text x="125" y="726" fill="#dbeafe" font-family="Poppins, Arial, sans-serif" font-size="28">eCommerce platform  |  Catalog • Cart • Checkout UI</text>
+</svg>

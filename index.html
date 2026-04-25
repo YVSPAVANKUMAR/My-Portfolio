@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Yelchuri Venkata Sai Pavan Kumar is a full stack developer building polished, responsive, and interactive web experiences."
+  >
+  <title>YVS Pavan Kumar | Developer Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Sora:wght@400;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+    crossorigin="anonymous"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  >
+  <script>
+    window.tailwind = window.tailwind || {};
+    window.tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ["Poppins", "sans-serif"],
+            display: ["Sora", "sans-serif"]
+          },
+          boxShadow: {
+            glow: "0 20px 70px rgba(59, 130, 246, 0.24)",
+            soft: "0 18px 60px rgba(15, 23, 42, 0.22)"
+          }
+        }
+      }
+    };
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans antialiased">
+  <div id="scroll-progress" class="scroll-progress" aria-hidden="true"></div>
+  <div class="ambient ambient-one" aria-hidden="true"></div>
+  <div class="ambient ambient-two" aria-hidden="true"></div>
+  <div class="ambient ambient-three" aria-hidden="true"></div>
+
+  <header id="site-header" class="site-header">
+    <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <nav class="nav-shell" aria-label="Primary navigation">
+        <a href="#home" class="brand">
+          <span class="brand-mark">YK</span>
+          <span class="brand-copy">
+            <span class="brand-name">YVS Pavan Kumar</span>
+            <span class="brand-role">Full Stack Developer</span>
+          </span>
+        </a>
+
+        <div class="nav-links hidden lg:flex">
+          <a href="#home" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#skills" class="nav-link">Skills</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="nav-actions">
+          <button
+            id="theme-toggle"
+            class="icon-button"
+            type="button"
+            aria-label="Toggle color theme"
+            aria-pressed="false"
+          >
+            <i class="bi bi-moon-stars-fill"></i>
+          </button>
+          <button
+            id="menu-toggle"
+            class="icon-button lg:hidden"
+            type="button"
+            aria-label="Toggle mobile navigation"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <i class="bi bi-list"></i>
+          </button>
+        </div>
+      </nav>
+
+      <div id="mobile-menu" class="mobile-menu lg:hidden" hidden>
+        <a href="#home" class="mobile-nav-link">Home</a>
+        <a href="#about" class="mobile-nav-link">About</a>
+        <a href="#projects" class="mobile-nav-link">Projects</a>
+        <a href="#skills" class="mobile-nav-link">Skills</a>
+        <a href="#contact" class="mobile-nav-link">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero-section">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid items-center gap-14 lg:grid-cols-[1.08fr_0.92fr]">
+          <div data-reveal="up" class="space-y-8">
+            <div class="space-y-4">
+              <span class="eyebrow">Developer Portfolio</span>
+              <h1 class="hero-title font-display">
+                Yelchuri Venkata Sai
+                <span>Pavan Kumar</span>
+              </h1>
+              <p class="hero-copy">
+                I build responsive web products with a sharp eye for interface quality, smooth
+                interactions, and practical full stack execution.
+              </p>
+            </div>
+
+            <div class="typing-shell">
+              <span class="typing-prefix">Building</span>
+              <span id="typing-text" class="typing-text" aria-live="polite"></span>
+            </div>
+
+            <div class="flex flex-col gap-4 sm:flex-row">
+              <a href="#projects" class="primary-btn">
+                View Projects
+                <i class="bi bi-arrow-right-short"></i>
+              </a>
+              <a
+                href="https://drive.google.com/uc?export=download&id=1OKlPfpuqRg92uhkzRB8B0t8dDIpf70P_"
+                class="secondary-btn"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Download Resume
+                <i class="bi bi-download"></i>
+              </a>
+            </div>
+
+            <div class="grid gap-4 sm:grid-cols-3">
+              <div class="metric-card surface-card">
+                <span class="metric-value">6+</span>
+                <p class="metric-label">Portfolio projects shipped</p>
+              </div>
+              <div class="metric-card surface-card">
+                <span class="metric-value">12+</span>
+                <p class="metric-label">Core tools and technologies</p>
+              </div>
+              <div class="metric-card surface-card">
+                <span class="metric-value">6</span>
+                <p class="metric-label">Certifications completed</p>
+              </div>
+            </div>
+          </div>
+
+          <div data-reveal="left" class="profile-stage">
+            <div class="orbit orbit-large" aria-hidden="true"></div>
+            <div class="orbit orbit-small" aria-hidden="true"></div>
+
+            <div class="profile-card">
+              <div class="profile-card__badge">Open to internships and entry-level roles</div>
+              <img
+                src="img/profile.jpg"
+                alt="Yelchuri Venkata Sai Pavan Kumar"
+                class="profile-image"
+              >
+              <div class="profile-card__footer">
+                <div>
+                  <p class="profile-card__eyebrow">Focus</p>
+                  <p class="profile-card__value">
+                    Frontend systems, Flask apps, AI-enabled workflows
+                  </p>
+                </div>
+                <span class="availability-pill" style="color: black;">Available</span>
+              </div>
+            </div>
+
+            <div class="floating-card floating-card--top">
+              <span class="floating-title">Frontend-first</span>
+              <p>Clean layouts, motion, responsiveness, and polish.</p>
+            </div>
+            <div class="floating-card floating-card--bottom">
+              <span class="floating-title">Full stack ready</span>
+              <p>Python, Flask, MongoDB, integrations, and deployment basics.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section-shell">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="section-intro" data-reveal="up">
+          <span class="section-kicker">About</span>
+          <h2 class="section-title font-display">
+            I learn by building and turn ideas into polished digital products.
+          </h2>
+          <p class="section-copy">
+            I am Yelchuri Venkata Sai Pavan Kumar, a self-driven developer with hands-on
+            experience across responsive interfaces, full stack features, cloud fundamentals,
+            and AI-assisted product ideas.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 lg:grid-cols-[1.1fr_0.9fr]">
+          <article data-reveal="right" class="surface-card surface-card--spacious">
+            <p class="copy-block">
+              I believe in learning by building, and my projects reflect a combination of practical problem-solving, modern UI/UX design, and integration of powerful tools like MongoDB, Flask, Google Apps Script, and AWS Cloud. Whether it's a chatbot for colleges, a dynamic shopping site, or a professional dashboard, I focus on clean code, smooth performance, and impactful design.
+            </p>
+            <p class="copy-block">
+             Currently, I’m working on expanding my portfolio, contributing to open-source ideas, and preparing for roles that blend,innovation, technology, and user-focused development.
+
+
+            </p>
+
+            <div class="mt-8 grid gap-4 sm:grid-cols-3">
+              <div class="mini-highlight">
+                <span class="mini-highlight__label">Based in</span>
+                <strong>India</strong>
+              </div>
+              <div class="mini-highlight">
+                <span class="mini-highlight__label">Interests</span>
+                <strong>UI systems, AI tools, cloud</strong>
+              </div>
+              <div class="mini-highlight">
+                <span class="mini-highlight__label">Approach</span>
+                <strong>Clean code and user-first design</strong>
+              </div>
+            </div>
+          </article>
+
+          <div class="grid gap-6">
+            <article data-reveal="up" class="surface-card highlight-card">
+              <span class="highlight-icon"><i class="bi bi-window-sidebar"></i></span>
+              <h3 class="highlight-title">Frontend craft</h3>
+              <p class="highlight-copy">
+                Responsive layouts, component structure, smooth interactions, and strong visual
+                hierarchy with HTML, CSS, Tailwind, Bootstrap, and JavaScript.
+              </p>
+            </article>
+
+            <article data-reveal="up" class="surface-card highlight-card">
+              <span class="highlight-icon"><i class="bi bi-braces-asterisk"></i></span>
+              <h3 class="highlight-title">Full stack execution</h3>
+              <p class="highlight-copy">
+                Flask-based apps, Python workflows, MongoDB-backed projects, and dynamic client
+                logic for practical, real-world use cases.
+              </p>
+            </article>
+
+            <article data-reveal="up" class="surface-card highlight-card">
+              <span class="highlight-icon"><i class="bi bi-stars"></i></span>
+              <h3 class="highlight-title">Continuous growth</h3>
+              <p class="highlight-copy">
+                Expanding into AI, machine learning, and AWS cloud fundamentals while actively
+                building portfolio work that stays modern and deployment-ready.
+              </p>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-shell">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="section-intro" data-reveal="up">
+          <span class="section-kicker">Projects</span>
+          <h2 class="section-title font-display">
+            A curated mix of UI builds, full stack experiments, and AI-driven solutions.
+          </h2>
+          <p class="section-copy">
+            Each project focuses on usability, clarity, and hands-on implementation with real
+            technologies rather than static mockups.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
+          <!-- <article data-reveal="up" data-tilt class="surface-card project-card">
+            <div class="project-cover">
+              <img src="img/quiz-game.svg" alt="Quiz Game project cover">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <span class="project-badge">Interactive UI</span>
+                <h3 class="project-title">Quiz Game</h3>
+                <p class="project-copy">
+                  A responsive quiz experience with dynamic question loading, score tracking,
+                  replay flow, and clear feedback for a more engaging learning interface.
+                </p>
+              </div>
+              <div class="tag-group">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  href="https://basic-quiz-game-project.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn link-btn--primary"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/YVSPAVANKUMAR/Quiz-Game"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article> -->
+
+          <article data-reveal="up" data-tilt class="surface-card project-card">
+            <div class="project-cover">
+              <img src="img/weather-movie.svg" alt="Weather and Movie App project cover">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <span class="project-badge">API's</span>
+                <h3 class="project-title">Weather App / Movie App (API-based)</h3>
+                <p class="project-copy">
+                  A modern web application featuring real-time weather updates and movie search, with dynamic API integration, responsive design, and smooth user experience.
+                </p>
+              </div>
+              <div class="tag-group">
+                <span class="tag">React.js (with Vite), Tailwind CSS</span>
+                <span class="tag">Node.js, Express.js (Proxy Server)</span>
+                <span class="tag">OpenWeather, OMDb API</span>
+                <!-- <span class="tag">Bootstrap</span> -->
+              </div>
+              <div class="project-actions">
+                <a
+                  href="https://earthquake-detection-and-movie-searching.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn link-btn--primary"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/YVSPAVANKUMAR/Wheather-Detection-and-Movie-Searching"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article data-reveal="up" data-tilt class="surface-card project-card">
+            <div class="project-cover">
+              <img src="img/algomart.svg" alt="Algomart project cover">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <span class="project-badge">eCommerce</span>
+                <h3 class="project-title">Algomart</h3>
+                <p class="project-copy">
+                  A modern shopping platform with product discovery, cart flow, checkout UI,
+                  category filtering, and responsive design for desktop and mobile shoppers.
+                </p>
+              </div>
+              <div class="tag-group">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  href="https://algomart.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn link-btn--primary"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/YVSPAVANKUMAR/Algomart-E-commerce"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article data-reveal="up" data-tilt class="surface-card project-card">
+            <div class="project-cover">
+              <img src="img/earthquake-detection.svg" alt="Earthquake Detection project cover">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <span class="project-badge">Machine Learning</span>
+                <h3 class="project-title">Earthquake Detection</h3>
+                <p class="project-copy">
+                  A Random Forest based workflow for seismic event prediction with Flask serving,
+                  dataset handling, model evaluation, and notebook-driven experimentation.
+                </p>
+              </div>
+              <div class="tag-group">
+                <span class="tag">Python</span>
+                <span class="tag">Flask</span>
+                <span class="tag">scikit-learn</span>
+                <span class="tag">Jupyter</span>
+              </div>
+              <div class="project-actions">
+                <span class="project-status">Source build</span>
+                <a
+                  href="https://github.com/YVSPAVANKUMAR/EarthQuake-Detection"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- <article data-reveal="up" data-tilt class="surface-card project-card">
+            <div class="project-cover">
+              <img src="img/tic-tac-toe.svg" alt="Tic Tac Toe project cover">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <span class="project-badge">Game Logic</span>
+                <h3 class="project-title">Tic-Tac-Toe</h3>
+                <p class="project-copy">
+                  A polished browser game with turn management, win detection, reset controls,
+                  and mobile-friendly layout built with clean DOM interaction.
+                </p>
+              </div>
+              <div class="tag-group">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Bootstrap</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  href="https://tic-tak-toe-game-play.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn link-btn--primary"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/YVSPAVANKUMAR/Tic-Tac-Toe-Game"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article> -->
+
+          <article data-reveal="up" data-tilt class="surface-card project-card">
+            <div class="project-cover">
+              <img src="img/todo-app.svg" alt="To Do List project cover">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <span class="project-badge">Productivity</span>
+                <h3 class="project-title">To-Do List App</h3>
+                <p class="project-copy">
+                  A clean task manager featuring add, edit, complete, and delete flows with a
+                  lightweight interface focused on usability and clarity.
+                </p>
+              </div>
+              <div class="tag-group">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Responsive UI</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  href="https://to-do-list2-1.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn link-btn--primary"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/YVSPAVANKUMAR/To-Do-List"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article data-reveal="up" data-tilt class="surface-card project-card">
+            <div class="project-cover">
+              <img src="img/ai-chatbot.svg" alt="AI Chatbot for Colleges project cover">
+            </div>
+            <div class="project-card__body">
+              <div class="project-card__header">
+                <span class="project-badge">Conversational AI</span>
+                <h3 class="project-title">AI Chatbot for Colleges</h3>
+                <p class="project-copy">
+                  A student-support chatbot experience for admissions, campus info, and academic
+                  queries using Botpress, Python logic, and a custom web interface.
+                </p>
+              </div>
+              <div class="tag-group">
+                <span class="tag">Python</span>
+                <span class="tag">Botpress</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="project-actions">
+                <a
+                  href="https://ai-chatbots-for-colleges-1.onrender.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn link-btn--primary"
+                >
+                  Live Demo
+                </a>
+                <a
+                  href="https://github.com/YVSPAVANKUMAR/Ai-Chatbots-For-Colleges/tree/main/Chat%20Bot%20Final"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="link-btn"
+                >
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section-shell">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="section-intro" data-reveal="up">
+          <span class="section-kicker">Skills</span>
+          <h2 class="section-title font-display">
+            Core capabilities across interface design, development, and tooling.
+          </h2>
+          <p class="section-copy">
+            I enjoy working across the stack, but I care most about creating products that feel
+            intentional, performant, and easy for people to use.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 lg:grid-cols-3">
+          <article data-reveal="up" data-tilt class="surface-card skill-card">
+            <div class="skill-card__header">
+              <span class="highlight-icon"><i class="bi bi-code-slash"></i></span>
+              <div>
+                <h3 class="skill-title">Frontend</h3>
+                <p class="skill-copy">Responsive interfaces, layout systems, and UI polish.</p>
+              </div>
+            </div>
+            <div class="skill-meter-group">
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>HTML5</span><span>90%</span></div>
+                <div class="skill-meter"><span style="--level: 90%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>CSS3 / Tailwind</span><span>88%</span></div>
+                <div class="skill-meter"><span style="--level: 88%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>JavaScript</span><span>82%</span></div>
+                <div class="skill-meter"><span style="--level: 82%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>Bootstrap</span><span>86%</span></div>
+                <div class="skill-meter"><span style="--level: 86%"></span></div>
+              </div>
+            </div>
+            <div class="tag-group">
+              <span class="tag">Responsive Design</span>
+              <span class="tag">UI Motion</span>
+              <span class="tag">Accessibility</span>
+            </div>
+          </article>
+
+          <article data-reveal="up" data-tilt class="surface-card skill-card">
+            <div class="skill-card__header">
+              <span class="highlight-icon"><i class="bi bi-server"></i></span>
+              <div>
+                <h3 class="skill-title">Backend</h3>
+                <p class="skill-copy">Application logic, APIs, and practical integrations.</p>
+              </div>
+            </div>
+            <div class="skill-meter-group">
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>Python</span><span>84%</span></div>
+                <div class="skill-meter"><span style="--level: 84%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>Flask</span><span>80%</span></div>
+                <div class="skill-meter"><span style="--level: 80%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>MongoDB</span><span>74%</span></div>
+                <div class="skill-meter"><span style="--level: 74%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>ML Integration</span><span>72%</span></div>
+                <div class="skill-meter"><span style="--level: 72%"></span></div>
+              </div>
+            </div>
+            <div class="tag-group">
+              <span class="tag">REST APIs</span>
+              <span class="tag">Data Handling</span>
+              <span class="tag">Automation</span>
+            </div>
+          </article>
+
+          <article data-reveal="up" data-tilt class="surface-card skill-card">
+            <div class="skill-card__header">
+              <span class="highlight-icon"><i class="bi bi-stars"></i></span>
+              <div>
+                <h3 class="skill-title">Tools</h3>
+                <p class="skill-copy">Collaboration, deployment, and continuous improvement.</p>
+              </div>
+            </div>
+            <div class="skill-meter-group">
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>Git / GitHub</span><span>78%</span></div>
+                <div class="skill-meter"><span style="--level: 78%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>AWS Cloud Basics</span><span>68%</span></div>
+                <div class="skill-meter"><span style="--level: 68%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>Figma / UI Thinking</span><span>72%</span></div>
+                <div class="skill-meter"><span style="--level: 72%"></span></div>
+              </div>
+              <div class="skill-meter-item">
+                <div class="skill-meter-label"><span>Netlify / Deployment</span><span>76%</span></div>
+                <div class="skill-meter"><span style="--level: 76%"></span></div>
+              </div>
+            </div>
+            <div class="tag-group">
+              <span class="tag">Problem Solving</span>
+              <span class="tag">Debugging</span>
+              <span class="tag">Teamwork</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="achievements" data-navless="true" class="section-shell section-shell--compact">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="grid gap-6 md:grid-cols-3">
+          <article data-reveal="up" class="surface-card counter-card">
+            <span class="counter-value" data-counter-target="6">0</span>
+            <h3 class="counter-title">Projects completed</h3>
+            <p class="counter-copy">From playful UI apps to full stack and AI-oriented builds.</p>
+          </article>
+          <article data-reveal="up" class="surface-card counter-card">
+            <span class="counter-value" data-counter-target="12">0</span>
+            <h3 class="counter-title">Technologies used</h3>
+            <p class="counter-copy">Covering frontend, backend, cloud, tools, and ML workflows.</p>
+          </article>
+          <article data-reveal="up" class="surface-card counter-card">
+            <span class="counter-value" data-counter-target="6">0</span>
+            <h3 class="counter-title">Certifications earned</h3>
+            <p class="counter-copy">A steady learning track across web, cloud, and Python.</p>
+          </article>
+        </div>
+
+        <div class="section-intro mt-16" data-reveal="up">
+          <span class="section-kicker">Credentials</span>
+          <h2 class="section-title font-display">
+            Featured certifications that reinforce practical knowledge.
+          </h2>
+          <p class="section-copy">
+            These credentials support the same direction as the portfolio work: strong web
+            fundamentals, cloud literacy, and consistent upskilling.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 lg:grid-cols-3">
+          <article data-reveal="up" class="surface-card credential-card">
+            <span class="project-badge">IBM | Coursera</span>
+            <h3 class="credential-title">Developing Websites and Front-Ends with Bootstrap</h3>
+            <p class="credential-copy">
+              Strengthened responsive layout design, reusable UI components, and fast front-end
+              execution with Bootstrap.
+            </p>
+            <a
+              href="https://www.coursera.org/account/accomplishments/certificate/IA6SZOXZDYBU"
+              target="_blank"
+              rel="noreferrer"
+              class="link-btn"
+            >
+              View Certificate
+            </a>
+          </article>
+
+          <article data-reveal="up" class="surface-card credential-card">
+            <span class="project-badge">Johns Hopkins | Coursera</span>
+            <h3 class="credential-title">HTML, CSS, and JavaScript for Web Developers</h3>
+            <p class="credential-copy">
+              Reinforced semantic HTML, CSS architecture, DOM-driven behavior, and mobile-ready
+              development fundamentals.
+            </p>
+            <a
+              href="https://www.coursera.org/account/accomplishments/certificate/5TYMFKT09K44"
+              target="_blank"
+              rel="noreferrer"
+              class="link-btn"
+            >
+              View Certificate
+            </a>
+          </article>
+
+          <article data-reveal="up" class="surface-card credential-card">
+            <span class="project-badge">AWS Training</span>
+            <h3 class="credential-title">AWS Cloud Practitioner Essentials</h3>
+            <p class="credential-copy">
+              Built core familiarity with cloud concepts, AWS services, pricing models, and
+              security responsibilities.
+            </p>
+            <a
+              href="https://drive.google.com/file/d/1W76Ro5MglzUdMgz6OkO_enOjqya_uqqW/view?usp=drive_link"
+              target="_blank"
+              rel="noreferrer"
+              class="link-btn"
+            >
+              View Certificate
+            </a>
+          </article>
+
+          <article data-reveal="up" class="surface-card credential-card">
+            <span class="project-badge">NPTEL</span>
+            <h3 class="credential-title">Introduction to Internet Of Things</h3>
+            <p class="credential-copy">
+              It has strengthened my foundation in modern connected technologies and inspired me to explore advanced IoT solutions.
+            </p>
+            <a
+              href="https://www.linkedin.com/posts/yelchuri-venkata-sai-pavan-kumar-2a8b712a9_completed-nptel-course-on-introduction-to-activity-7398350699719323648-diZ0?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEpjk2ABdPCuOjQ-B37ucJeMHu3RUDWKmdI"
+              target="_blank"
+              rel="noreferrer"
+              class="link-btn"
+            >
+              View Certificate
+            </a>
+          </article>
+
+          <article data-reveal="up" class="surface-card credential-card">
+            <span class="project-badge">NPTEL</span>
+            <h3 class="credential-title">Privacy and Security In Online Social Media</h3>
+            <p class="credential-copy">
+              It strengthened my knowledge of how digital footprints are created and how to safeguard them effectively.
+            </p>
+            <a
+              href="https://www.linkedin.com/posts/yelchuri-venkata-sai-pavan-kumar-2a8b712a9_completed-nptel-course-on-privacy-security-activity-7398349411648638976-urOf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEpjk2ABdPCuOjQ-B37ucJeMHu3RUDWKmdI"
+              target="_blank"
+              rel="noreferrer"
+              class="link-btn"
+            >
+              View Certificate
+            </a>
+          </article>
+
+
+          <article data-reveal="up" class="surface-card credential-card">
+            <span class="project-badge">Cognitive Class</span>
+            <h3 class="credential-title">Python 101 for Data Science</h3>
+            <p class="credential-copy">
+              This course laid a strong programming foundation for advanced topics in data science, machine learning, and AI using Python.
+            </p>
+            <a
+              href="https://courses.cognitiveclass.ai/certificates/1022461ea586468aaed9931e63a8c0a4"
+              target="_blank"
+              rel="noreferrer"
+              class="link-btn"
+            >
+              View Certificate
+            </a>
+          </article>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-shell">
+      <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div class="section-intro" data-reveal="up">
+          <span class="section-kicker">Contact</span>
+          <h2 class="section-title font-display">
+            Let&apos;s build something useful, thoughtful, and visually strong.
+          </h2>
+          <p class="section-copy">
+            I am open to collaboration, internships, freelance opportunities, and roles where I
+            can grow while contributing to real product work.
+          </p>
+        </div>
+
+        <div class="mt-12 grid gap-6 lg:grid-cols-[0.92fr_1.08fr]">
+          <div class="space-y-6">
+            <article data-reveal="right" class="surface-card contact-panel">
+              <div class="contact-row">
+                <span class="highlight-icon"><i class="bi bi-envelope-paper"></i></span>
+                <div>
+                  <p class="contact-label">Email</p>
+                  <a href="mailto:yvspavankumar1706@gmail.com" class="contact-link">
+                    yvspavankumar1706@gmail.com
+                  </a>
+                </div>
+              </div>
+              <div class="contact-row">
+                <span class="highlight-icon"><i class="bi bi-geo-alt"></i></span>
+                <div>
+                  <p class="contact-label">Location</p>
+                  <p class="contact-copy">India</p>
+                </div>
+              </div>
+              <div class="contact-row">
+                <span class="highlight-icon"><i class="bi bi-briefcase"></i></span>
+                <div>
+                  <p class="contact-label">Currently seeking</p>
+                  <p class="contact-copy">Developer internships, junior roles, and freelance work</p>
+                </div>
+              </div>
+            </article>
+
+            <article data-reveal="up" class="surface-card social-panel">
+              <div class="social-panel__header">
+                <h3 class="skill-title">Social Links</h3>
+                <p class="skill-copy">Hover for motion, click to connect, or fill the placeholders later.</p>
+              </div>
+              <div class="social-grid">
+                <a
+                  href="https://github.com/YVSPAVANKUMAR"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="social-link"
+                  aria-label="GitHub"
+                >
+                  <i class="bi bi-github"></i>
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/yelchuri-venkata-sai-pavan-kumar-2a8b712a9/"
+                  target="_blank"
+                  rel="noreferrer"
+                  class="social-link"
+                  aria-label="LinkedIn"
+                >
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <button
+                  type="button"
+                  class="social-link social-link--placeholder"
+                  data-placeholder="Add your Instagram profile URL here."
+                  aria-label="Instagram placeholder"
+                >
+                  <i class="bi bi-instagram"></i>
+                </button>
+                <button
+                  type="button"
+                  class="social-link social-link--placeholder"
+                  data-placeholder="Add your Twitter or X profile URL here."
+                  aria-label="Twitter placeholder"
+                >
+                  <i class="bi bi-twitter-x"></i>
+                </button>
+                <a
+                  href="mailto:yvspavankumar1706@gmail.com"
+                  class="social-link"
+                  aria-label="Email"
+                >
+                  <i class="bi bi-envelope-fill"></i>
+                </a>
+              </div>
+            </article>
+          </div>
+
+          <article data-reveal="left" class="surface-card surface-card--spacious">
+            <form id="contact-form" class="contact-form" novalidate>
+              <div class="grid gap-4 sm:grid-cols-2">
+                <label class="form-field">
+                  <span>Name</span>
+                  <input type="text" name="name" placeholder="Your name" required>
+                </label>
+                <label class="form-field">
+                  <span>Email</span>
+                  <input type="email" name="email" placeholder="you@example.com" required>
+                </label>
+              </div>
+
+              <label class="form-field">
+                <span>Message</span>
+                <textarea
+                  name="message"
+                  rows="6"
+                  placeholder="Tell me about your project, role, or idea."
+                  required
+                ></textarea>
+              </label>
+
+              <div class="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                <p class="form-note">
+                  Static UI only. Connect this form to Formspree or Netlify Forms when you want
+                  real submissions.
+                </p>
+                <button type="submit" class="primary-btn">
+                  Send Message
+                  <i class="bi bi-send"></i>
+                </button>
+              </div>
+            </form>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer-shell">
+    <div class="mx-auto flex max-w-7xl flex-col gap-5 px-4 py-8 sm:px-6 lg:flex-row lg:items-center lg:justify-between lg:px-8">
+      <p class="footer-copy">
+        &copy; 2026 YVS Pavan Kumar. Crafted as a deploy-ready static portfolio for recruiters,
+        collaborators, and clients.
+      </p>
+      <div class="flex flex-wrap items-center gap-3">
+        <a href="#about" class="footer-link">About</a>
+        <a href="#projects" class="footer-link">Projects</a>
+        <a href="#contact" class="footer-link">Contact</a>
+        <button id="back-to-top" type="button" class="back-to-top" aria-label="Back to top">
+          <i class="bi bi-arrow-up"></i>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast-message" role="status" aria-live="polite"></div>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"
+  ></script>
+  <script src="script.js"></script>
+</body>
+</html>

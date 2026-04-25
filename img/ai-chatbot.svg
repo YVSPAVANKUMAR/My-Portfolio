@@ -1,0 +1,41 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">AI Chatbot for Colleges project cover</title>
+  <desc id="desc">Conversational interface with chat windows and support panel.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="42%" stop-color="#4338ca"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" rx="44" fill="url(#bg)"/>
+  <circle cx="1010" cy="130" r="145" fill="rgba(165,180,252,0.16)"/>
+  <circle cx="145" cy="695" r="165" fill="rgba(34,211,238,0.12)"/>
+  <rect x="86" y="92" width="1028" height="616" rx="38" fill="rgba(2,6,23,0.28)" stroke="rgba(255,255,255,0.2)"/>
+  <rect x="132" y="136" width="944" height="64" rx="24" fill="rgba(255,255,255,0.1)"/>
+  <rect x="170" y="158" width="280" height="22" rx="11" fill="rgba(255,255,255,0.9)"/>
+  <g fill="rgba(255,255,255,0.1)" stroke="rgba(255,255,255,0.18)">
+    <rect x="132" y="236" width="268" height="392" rx="28"/>
+    <rect x="432" y="236" width="644" height="392" rx="28"/>
+  </g>
+  <g fill="rgba(224,231,255,0.86)">
+    <rect x="168" y="272" width="154" height="18" rx="9"/>
+    <rect x="168" y="314" width="122" height="18" rx="9"/>
+    <rect x="168" y="356" width="166" height="18" rx="9"/>
+  </g>
+  <g>
+    <rect x="474" y="282" width="380" height="76" rx="26" fill="rgba(255,255,255,0.14)"/>
+    <rect x="580" y="396" width="402" height="76" rx="26" fill="rgba(191,219,254,0.28)"/>
+    <rect x="474" y="508" width="338" height="76" rx="26" fill="rgba(255,255,255,0.14)"/>
+  </g>
+  <g fill="rgba(255,255,255,0.86)">
+    <rect x="504" y="310" width="234" height="16" rx="8"/>
+    <rect x="612" y="424" width="228" height="16" rx="8"/>
+    <rect x="504" y="536" width="198" height="16" rx="8"/>
+  </g>
+  <circle cx="1008" cy="584" r="42" fill="rgba(255,255,255,0.18)"/>
+  <path d="M992 584H1024" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <path d="M1008 568V600" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+  <text x="132" y="680" fill="#eef2ff" font-family="Poppins, Arial, sans-serif" font-size="60" font-weight="700">AI Chatbot for Colleges</text>
+  <text x="132" y="730" fill="#dbeafe" font-family="Poppins, Arial, sans-serif" font-size="28">Conversational support  |  Botpress • Python • Student help desk</text>
+</svg>
